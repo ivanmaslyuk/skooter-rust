@@ -1,0 +1,12 @@
+[package]
+name = "rustp"
+version = "0.0.1"
+
+[[bin]]
+name = "rustp"
+path = "main.rs"
+
+[dependencies]
+skia-safe = {version = "0", features=["gl"]}
+glutin = "0"
+gl = "0"
